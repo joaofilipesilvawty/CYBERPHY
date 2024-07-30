@@ -3,5 +3,4 @@
 	•	Validação de endereços IP
 	•	Escaneamento de portas abertas
 	•	Captura de pacotes de rede
-	•	Verificação de conformidade com normas de segurança (ISO/IEC 27002)
-	•	Aplicação prática dos conceitos de cibersegurança aprendidos durante o curso
+	•	Verificação de conformidade com normas de segurança ISO/IEC 27002
