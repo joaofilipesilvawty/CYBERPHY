@@ -2,7 +2,7 @@
 
 ## **Descrição**
 
-Este projeto consiste em um script desenvolvido para realizar tarefas essenciais de segurança de rede, incluindo o escaneamento de hosts e portas, a validação de direções IP, a captura de pacotes e a verificação de segurança com base na norma ISO/IEC 27002. O sistema permite que usuários validem, monitorem e analisem redes, realizando escaneamentos em múltiplas máquinas e salvando os dados para análise posterior.
+Este projeto consiste em um script desenvolvido para realizar tarefas essenciais de segurança de rede, incluindo o escaneamento de hosts e portas, a validação de direções IP, a captura de pacotes e a verificação de segurança com base na norma ISO/IEC 27002. O sistema permite que usuários validem, monitorem e analisem redes, realizando escaneamentos em múltiplas máquinas e salvando os dados para análise posterior. Este projeto foi desenvolvido como parte do **Projeto Final do Curso de Cibersegurança da Tokio School**.
 
 ## **Funcionalidades**
 
