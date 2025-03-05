@@ -28,12 +28,6 @@ O script permite ao usuário realizar as seguintes ações:
 4. **Captura de Pacotes**: O script pode capturar pacotes de rede durante um tempo determinado, permitindo o monitoramento em tempo real.
 5. **Salvar Pacotes**: Caso o usuário deseje, os pacotes capturados podem ser armazenados em um arquivo `.pcap` para futuras análises.
 
-## **Benefícios para Empresas**
-
-- **Segurança Proativa**: Ao realizar escaneamentos regulares e capturas de pacotes, a empresa pode detectar vulnerabilidades e comportamento suspeito antes que eles se tornem problemas maiores.
-- **Compliance**: A verificação da conformidade com as normas ISO/IEC 27002 permite que as empresas garantam que suas redes estão configuradas de forma segura e conforme as melhores práticas do setor.
-- **Diagnóstico e Troubleshooting**: A captura de pacotes e análise de tráfego pode ser extremamente útil para diagnosticar problemas de rede, identificar congestionamentos ou ataques, e otimizar o desempenho.
-
 ## **Tecnologias Utilizadas**
 
 - **Nmap**: Para escanear hosts e portas de rede.
