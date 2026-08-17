@@ -1,36 +1,63 @@
-# **Projeto de Escaneamento de Rede e Captura de Pacotes**
+# CYBERPHY
 
-## **Descrição**
+Python-based network scanning and packet capture project developed for practical network security validation, traffic analysis, and basic security assessment.
 
-Este projeto consiste em um script desenvolvido para realizar tarefas essenciais de segurança de rede, incluindo o escaneamento de hosts e portas, a validação de direções IP, a captura de pacotes e a verificação de segurança com base na norma ISO/IEC 27002. O sistema permite que usuários validem, monitorem e analisem redes, realizando escaneamentos em múltiplas máquinas e salvando os dados para análise posterior. Este projeto foi desenvolvido como parte do **Projeto Final do Curso de Cibersegurança da Tokio School**.
+## Overview
 
-## **Funcionalidades**
+CYBERPHY is a security-focused Python project designed to perform core network analysis tasks, including host discovery, port scanning, packet capture, and PCAP export. It was developed as part of the final project for the Tokio School Cybersecurity course and demonstrates practical use of Python in network security workflows.
 
-- **Escaneamento de Rede**: Permite escanear uma ou várias IPs para detectar hosts ativos.
-- **Escaneamento de Portas**: Realiza o escaneamento de portas abertas em uma determinada IP ou faixa de IPs.
-- **Captura de Pacotes**: Captação de pacotes de rede para diagnóstico e análise de tráfego.
-- **Verificação de Segurança**: Realiza verificações de segurança conforme a norma ISO/IEC 27002 utilizando ferramentas de escaneamento como o Nmap.
-- **Armazenamento de Pacotes**: Possibilidade de salvar os pacotes capturados em arquivos `.pcap` para análise posterior.
+The project supports controlled security testing and network visibility by combining scanning and traffic capture capabilities in a single tool. ISO/IEC 27002 was used as a reference framework for structuring security-related observations.
 
-## **Caso de Uso**
+## Features
 
-Este script é ideal para empresas ou profissionais de segurança da informação que buscam realizar auditorias e testes de penetração em suas redes, validando a integridade das configurações de segurança e a existência de vulnerabilidades. Ele pode ser usado para:
-- **Auditoria de Rede**: Verificar quais dispositivos estão conectados e se as portas abertas representam riscos de segurança.
-- **Diagnóstico de Tráfego**: Capturar pacotes de rede para realizar análises detalhadas sobre o tráfego, identificando comportamentos anômalos.
-- **Verificação de Conformidade**: Ajudar na verificação de conformidade com normas de segurança como a ISO/IEC 27002.
+- Host discovery across one or multiple IP addresses
+- Port scanning for target systems and defined port ranges
+- IP address validation before execution
+- Network interface detection and selection
+- Packet capture for traffic inspection and troubleshooting
+- Export of captured traffic to `.pcap` files for later analysis
+- Support for organizing security findings using ISO/IEC 27002 as a reference
 
-## **Como Funciona**
+## Use Cases
 
-O script permite ao usuário realizar as seguintes ações:
-1. **Inserir Endereços IP**: O usuário fornece uma lista de endereços IP a serem escaneados.
-2. **Definir Rango de Portas**: O usuário define quais portas deseja escanear (ou escolhe escanear todas as portas).
-3. **Escolher Interface de Rede**: O script detecta as interfaces de rede disponíveis e permite ao usuário selecionar qual será usada para a captura de pacotes.
-4. **Captura de Pacotes**: O script pode capturar pacotes de rede durante um tempo determinado, permitindo o monitoramento em tempo real.
-5. **Salvar Pacotes**: Caso o usuário deseje, os pacotes capturados podem ser armazenados em um arquivo `.pcap` para futuras análises.
+CYBERPHY can be used in controlled lab or educational environments for:
 
-## **Tecnologias Utilizadas**
+- Identifying active hosts on a network
+- Reviewing exposed services and open ports
+- Capturing traffic for troubleshooting and behavioral analysis
+- Saving PCAP files for review in tools such as Wireshark
+- Supporting basic security validation activities
 
-- **Nmap**: Para escanear hosts e portas de rede.
-- **Scapy**: Para captura e manipulação de pacotes de rede.
-- **Psutil**: Para obter informações sobre as interfaces de rede.
-- **Python**: A linguagem de programação utilizada para desenvolver o script, com bibliotecas padrão como `socket`, `re`, `logging`, e `concurrent.futures` para facilitar o desenvolvimento.
+## Technologies Used
+
+- **Python**
+- **Nmap**
+- **Scapy**
+- **Psutil**
+- **Socket**
+- **Logging**
+- **Concurrent Futures**
+
+## Workflow
+
+1. Enter one or more IP addresses.
+2. Define the port range to scan.
+3. Select the network interface to use.
+4. Run host and port scanning.
+5. Capture network traffic for a defined period.
+6. Export captured packets to a `.pcap` file if required.
+
+## Project Value
+
+This project demonstrates practical skills in:
+
+- Python scripting for security tasks
+- Network enumeration and service discovery
+- Packet capture and traffic inspection
+- Basic security validation in controlled environments
+- Structuring findings with reference to security standards
+
+## CV Summary
+
+**CYBERPHY** - Python-based network scanning and packet capture project.  
+Developed a tool for host discovery, port scanning, packet capture, and PCAP export using Python, Nmap, and Scapy. Analyzed captured traffic and organized security findings using ISO/IEC 27002 as a reference.
