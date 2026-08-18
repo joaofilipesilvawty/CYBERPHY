@@ -38,6 +38,13 @@ CYBERPHY can be used in controlled lab or educational environments for:
 - **Logging**
 - **Concurrent Futures**
 
+## Setup
+
+1. Clone the repository.
+2. Run `./start.sh` from the project root.
+
+On the first run, `start.sh` creates a Python virtual environment in `.env` and installs the dependencies from `requirements.txt`. This project was developed as part of the final project for the Tokio School Cybersecurity course.
+
 ## Workflow
 
 1. Enter one or more IP addresses.
